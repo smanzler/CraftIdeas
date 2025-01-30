@@ -1,8 +1,12 @@
 .card-container {
   position: relative;
-  width: 100%;
+  line-height: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 300px;
-  background-color: #fff;
+  max-height: 300px;
+  background-color: var(--card-bg-color);
   border-radius: 10px;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
